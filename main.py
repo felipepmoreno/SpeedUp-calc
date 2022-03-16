@@ -25,7 +25,7 @@ for j in range(0, 10):
     
     print("\nUtilizando %d Threads:"%ThreadsQtdd)
 
-    for i in range(0, 20):
+    for i in range(0, 50):
         start1 = perf_counter_ns()
         primo_sp = sp.resolve_simples(data)
         finish1 = perf_counter_ns()
